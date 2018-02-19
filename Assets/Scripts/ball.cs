@@ -29,10 +29,10 @@ public class ball : MonoBehaviour {
             // If the direction is equal to 1, then send ball to top right corner
             if (randDirection == 1)
             {
-                ballRB.AddForce(new Vector3(ballSpeed, ballSpeed, 0));
+                ballRB.AddForce(new Vector2(ballSpeed, ballSpeed));
             // If the direction is equal to 2, then send ball to bottom left corner
             } else {
-                ballRB.AddForce(new Vector3(ballSpeed, -ballSpeed, 0));
+                ballRB.AddForce(new Vector2(ballSpeed, -ballSpeed));
             }
         }
 	}
