@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/pong1.unity
+- path: Assets/Scenes/pong1.unity
   isLoaded: 1
   isActive: 1
